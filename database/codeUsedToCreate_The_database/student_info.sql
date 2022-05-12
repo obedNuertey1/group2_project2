@@ -1,0 +1,47 @@
+create table student_info (
+	student_id VARCHAR(50) NOT NULL PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
+	date_of_birth DATE NOT NULL,
+	nationality VARCHAR(50) NOT NULL,
+	residential_Address VARCHAR(200),
+	email VARCHAR(50) UNIQUE,
+	fees float(2)
+);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10885671', ' FELIX', 'YIADOM', '7/11/2003', 'Ghana', '2316 Ludington Center', 'ftrulock0@google.cn', 568.90);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10903301', 'ABUBAKARI', 'AL-WAASIU', '4/9/2005', 'Ghana', '617 Anniversary Center', 'jshay1@gov.uk', 632.82);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10904196', 'COMMODORE', 'DERRICK', '3/10/2005', 'Ghana', '30636 Meadow Valley Plaza', 'cmadgett2@opera.com', 83.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10895794', 'OPARE-OSABUTEY', 'ELLIS', '10/16/2003', 'Ghana', '2 Rockefeller Place', 'gsoall3@php.net', 23.89);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10908786', 'AFIA DABANKA', 'AKYAA', '9/24/2003', 'Ghana', '6 Brickson Park Terrace', 'rceresa4@live.com', 85.33);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10909989', 'QUARSHIE', 'FRANCIS', '6/3/2003', 'Ghana', '8864 Lukken Trail', 'amacconaghy5@creativecommons.org', 765.32);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10908266', 'NUERTEY', 'OBED', '7/20/2004', 'Ghana', '172 Sugar Trail', 'fstemp6@elpais.com', 856.21);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10885857', 'QUARTSON JERRY', 'JUSTICE', '8/21/2004', 'Ghana', '46501 Express Circle', 'sriby7@sourceforge.net', 221.20);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10880660', 'NII-GYAN', 'CHRISTIAN', '12/14/2004', 'Ghana', '45410 Shelley Road', 'cclaiton8@cmu.edu', 1000.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10922580', 'ABOAGYE FAFA', 'KOFI', '4/28/2003', 'Ghana', '5 Graedel Court', 'cgiovannelli9@geocities.jp', 902.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10890540', 'JAYMILLS', 'PRINCE', '6/21/2004', 'Ghana', '0122 Jenifer Way', 'gbuzzinga@china.com.cn', 200.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10912305', 'NKRUMAH', 'AKUA SERWAA', '12/21/2004', 'Ghana', '03 Sullivan Junction', 'rmctrustrieb@hatena.ne.jp', 130.20);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10889628', 'ANTWI BOASIAKO', 'MAAME YAA HENEWAAA', '9/10/2004', 'Ghana', '21932 Schurz Drive', 'clebatteurc@so-net.ne.jp', 432.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10879657', ' ABDUL', ' KUDUS MUSAH', '8/18/2005', 'Ghana', '48110 Shopko Pass', 'gpidgend@addthis.com', 123.80);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10889220', 'ADISENU STANLEY', 'EDEM KWESI', '12/7/2005', 'Ghana', '51332 Mosinee Lane', 'rhallbirde@google.com.br', 220.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10895681', 'NYAME', 'KOFI', '12/6/2005', 'Ghana', '9 Golf View Way', 'smallisonf@washington.edu', 150.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10867736', 'MENSAH', 'ATO NYAMEKYE', '8/24/2005', 'Ghana', '677 Hagan Street', 'lchurlyg@arizona.edu', 300.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10869956', 'LUORNOR', 'NATHAN TETTEY', '11/19/2000', 'Ghana', '9925 Dahle Avenue', 'mlandrickh@csmonitor.com', 440.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10885854', 'LAMPTEY', 'EMMANUELLA', '10/20/2000', 'Ghana', '8376 Golden Leaf Point', 'kinderwicki@whitehouse.gov', 500.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10878722', 'CHUNKUH', 'YEYUNG', '10/21/2000', 'Ghana', '38185 Milwaukee Avenue', 'cstivanij@soundcloud.com', 800.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10983685', 'DANIEL', 'OHENE-AGYEKUM', '4/9/2003', 'Ghana', '77 Mccormick Circle', 'hohogertiek@1und1.de', 90.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10869594', 'FIAGBENYA', 'EDUDZI MACKBETH', '7/17/2000', 'Ghana', '64 5th Hill', 'kfeasterl@ucla.edu', 250.30);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10883685', 'BAAH', 'NANA KWADWO ASARE', '7/29/1999', 'Ghana', '9077 Mitchell Point', 'smagauranm@amazon.co.uk', 82.12);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10900057', 'TARIQ', 'NASSER DEEN', '6/4/1999', 'Ghana', '4605 Hooker Street', 'npurdien@ezinearticles.com', 990.23);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10893685', 'YAW AFRIYIE', 'COLE', '2/10/2003', 'Ghana', '5579 Grim Drive', 'ntomblesono@ehow.com', 330.30);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10913721', 'AVEMEGAH ENAM', 'AVEMEGAH ENAM BERNICE', '4/3/2003', 'Ghana', '7 Independence Terrace', 'agomersalp@gov.uk', 550.20);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10893769', 'KUSHIEME', 'KINGSMAN', '12/13/1999', 'Ghana', '158 Bobwhite Junction', 'ckohlermanq@ocn.ne.jp', 650.31);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10920593', 'MAC-ARTHUR', 'IMMANUEL JUSTICE', '8/13/1999', 'Ghana', '04 Manitowish Park', 'mreecer@google.com.hk', 800.23);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10898029', 'CHRISTELL', 'TAWIAH', '12/10/1999', 'Ghana', '30023 Springview Court', 'rszymonis@opensource.org', 890.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10889611', 'DWUMFOUR BERNARD', 'KUSI', '7/3/1999', 'Ghana', '8500 Waubesa Park', 'mcroptont@google.pl', 400.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10948785', 'OPOKU DUAH', 'CHARLES', '12/6/1999', 'Ghana', '05 Vermont Trail', 'kbortonu@noaa.gov', 330.23);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10896031', 'ADAMA RUTH', 'SENAM', '10/12/2000', 'Ghana', '41455 Fulton Hill', 'bhouldv@ezinearticles.com', 350.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10906967', 'ABU-ISHMAEL', 'YUSIF KWESI', '1/11/2003', 'Ghana', '494 Fallview Drive', 'gharrodw@toplist.cz', 220.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10893090', 'BOATENG', 'KELVIN PRINCE', '9/7/2003', 'Ghana', '50979 Mandrake Pass', 'gbeerex@icq.com', 550.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10867516', 'STEPHEN', 'NORTEY', '7/3/2001', 'Ghana', '87 Schmedeman Point', 'brosenfelty@vkontakte.ru', 720.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10924072', 'OGBOGOH EBUKA', 'JOSHUA', '2/10/2003', 'Ghana', '30854 Bluejay Parkway', 'jdolanz@flavors.me', 820.00);
+insert into student_info (student_id, first_name, last_name, date_of_birth, nationality, residential_Address, email, fees) values ('10863450', 'BOADU', 'JEFFREY BOSOMPEM', '9/28/2002', 'Ghana', '941 Graedel Alley', 'tkennington10@icio.us', 930.90);
